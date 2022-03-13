@@ -2,7 +2,8 @@
 import typing
 
 import tensorflow as tf
-from keras.engine import Layer
+#from keras.engine import Layer
+from keras.layers import Layer # Changed from previous line to fix tensorflow toolchain
 
 
 class MatchingLayer(Layer):

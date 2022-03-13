@@ -2,8 +2,9 @@
 
 import math
 import typing
-
-import keras
+import tensorflow # Added to fix toolchain issues
+#import keras 
+from tensorflow import keras # Changed from previous line
 import numpy as np
 import pandas as pd
 
